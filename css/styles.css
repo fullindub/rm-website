@@ -1,0 +1,177 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	background-color: #674A66;
+	color: #F6F8EC;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #5B965E;
+}
+
+/** LOGO IMAGE **/
+#logo-image {
+	background: url(../img/logo-white-100.png) no-repeat;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+/** TITLE **/
+.navbar-brand {	
+	margin-left: 20px;
+	display: inline-block;
+}
+.navbar-brand a:visited, .navbar-brand a:link, .navbar-brand a:hover {
+	color: #F6F8EC;
+	text-decoration: none;
+}
+.navbar-brand h1 {
+	font-size: 1.5em;
+}
+.navbar-brand p {
+	font-size: 1.3em;
+
+/** NAV ITEMS **/
+}
+#navbarNav a:visited, #navbarNav a:link, #navbarNav a:hover{
+	color: #F6F8EC;
+	text-decoration: none;
+}
+
+.nav-item {
+	text-align: center;
+}
+ul.navbar-nav>button {
+	margin: 5px;
+	padding: 1px;
+}
+
+/** NAV ITEMS END **/
+
+/** FOOTER **/
+
+footer {
+	background-color: #000;
+	padding-bottom: 40px;
+}
+#follow-me {
+	position: relative;
+	font-size: 25px;
+	bottom: 12.5px;
+	margin-right: 10px;
+}
+.socials {
+	background-color: #40666a;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.social-media-icon {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #F6F8EC;
+	text-decoration: none;
+	font-size: 50px;
+}
+#location-info {
+	text-align: center;
+	font-size: 15px;
+}
+#about {
+	text-align: center;
+	padding: 5px;
+	font-size: 120%;
+
+}
+.copyright {
+	font-size: 15px;
+	text-align: center;
+}
+.footer-title {
+	font-weight: bold;
+	font-size: 150%;
+}
+.info-items a:visited, .info-items a:link, .info-items a:hover {
+	color: #F6F8EC;
+	text-decoration: none;
+}
+.social-media-icon a:visited, .social-media-icon a:link, .social-media-icon a:hover {
+	color: #F6F8EC;
+	text-decoration: none;
+}
+/** FOOTER END **/
+
+/** MAIN CONTENT **/
+
+#workshops-tile, #gallery-tile, #studio-tile {
+	width: 100%;
+	height: 200px;
+	position: relative;
+	border: 2px solid #40666a;
+	overflow: hidden;
+	margin-bottom: 3rem;
+}
+#workshops-tile:hover, #gallery-tile:hover, #studio-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#workshops-tile {
+	background: url('../img/Workshop-RM-website.jpg') no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#gallery-tile {
+	background: url('../img/Gallery-RM-website.jpg') no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#studio-tile {
+	background: url('../img/Studio-RM-website.jpg') no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+#workshops-tile span, #gallery-tile span, #studio-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	background-color: #000;
+	opacity: 0.8;
+	color: #F6F8EC;
+}
+/** MAIN CONTENT END **/
+
+@media (min-width: 1200px) {
+	#about {
+		width: 950px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#about {
+		width: 950px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+@media (max-width: 575px) {
+	#hometiles {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+}
+

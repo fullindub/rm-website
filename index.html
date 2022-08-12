@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--|  browser-sync start --server --directory --files "**/*" |-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>School of stained glass art</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar fixec-top navbar-expand-md">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="d-none d-sm-block float-start" href="index.html">
+						<div id="logo-image" alt="Logo Image"></div>
+					</a>
+					<div class="navbar-brand text-uppercase me-0">
+						<a href="index.html">
+							<h1 class="fw-bold">Rachel Mulligan</h1>
+							<p>Stained Glass</p>
+						</a>
+					</div>
+				</div>
+				<button class="navbar-toggler ms-auto" 
+				type="button" 
+				data-bs-toggle="collapse" 
+				data-bs-target="#navbarNav" 
+				aria-controls="navbarSupportedContent" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+      			</button>
+      		</div>
+			<div id="navbarNav" class="collapse navbar-collapse me-3 ms-0">
+				<ul class="navbar-nav">
+					<button type="button" class="btn btn-outline-dark">
+						<li class="nav-item active">
+							<a href="#" class="nav-link">
+								Workshops
+							</a>
+						</li>
+					</button>
+					<button type="button" class="btn btn-outline-dark">
+						<li class="nav-item active">
+							<a href="gallery.html" class="nav-link">
+								Gallery
+							</a>
+						</li>
+					</button>
+					<button type="button" class="btn btn-outline-dark">
+						<li class="nav-item active">
+							<a href="#" class="nav-link">
+								Studio
+							</a>
+						</li>
+					</button>
+				</ul>
+			</div>
+
+		</nav>
+	</header>
+	<div id="main-content" class="m-none p-none mw-100">
+		<div class="top-image">
+			<img src="img/Owl-RM-website.jpg" alt="Pannel Owl" class="img-fluid d-block d-sm-block mb-5">
+		</div>
+		<div class="container">
+			<div class="row" id="hometiles">
+				<div class="col-12 col-sm-6 col-md-4" >
+					<a href="#"><div id="workshops-tile" class="img-fluid"><span>workshops</span></div></a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4" >
+					<a href="gallery.html"><div id="gallery-tile" class="img-fluid"><span>gallery</span></div></a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4" >
+					<a href="#"><div id="studio-tile" class="img-fluid"><span>studio</span></div></a>
+				</div>
+			</div> <!-- END OF HOMETILES -->
+		</div>
+	</div> <!-- END OF MAIN CONTENT -->
+
+	<!-- FOOTER -->
+	<footer class="pannel-footer">
+		<div class="container-fluid socials">
+			<div id="about" class="col-12 mb-3">
+				<section>
+					Discover your inner artist with stained glass. From her garden studio in Surrey, Rachel Mulligan shares her skills, knowledge and finest quality glass to help you achieve your artist potential.
+				</section>
+			</div>
+			<hr class="d-block d-sm-block d-md-none"></hr>
+			<span><span id="follow-me">Follow me on social media:</span>
+			<br class="d-block d-sm-block d-md-none">
+				<a class="social-media-icon link-dark" href="#" target="_blank" title="Follow on Instagram">
+					<i class="bi bi-instagram"></i>
+				</a>
+				<a class="social-media-icon link-dark" href="#" target="_blank" title="Follow on Facebook">
+					<i class="bi bi-facebook"></i>
+				</a>
+				<a class="social-media-icon link-dark" href="#" target="_blank" title="Follow on Pintrest">
+					<i class="bi bi-pinterest"></i>
+				</a>
+				<a class="social-media-icon link-dark" href="" target="_blank" title="Follow on Twitter">
+					<i class="bi bi-twitter"></i>
+				</a>
+			</span>
+		</div>
+		<div class="container">
+			<div class="row" id="location-info">
+				<div id="location" class="col-12 col-sm-6 col-md-6">
+					<span>
+						<span class="footer-title">Location</span>
+						<br>
+						The Studio<br>
+						1 Furze Lane<br>
+						Godalming<br>
+						Surrey<br>
+						GU7 3NW
+					</span>
+					<hr class="d-block d-sm-none">
+				</div>
+				<div id="info" class="col-12 col-sm-6 col-md-6">
+					<span>
+						<span class="footer-title">Information</span>
+					</span><br>
+					<p class="info-items">
+						<a href="#">Terms and Conditions</a><br>
+						<a href="#">Contact via Email<br>studio@rachelmulligan.co.uk</a><br>
+						<a href="#">Contact via phone<br>+44 (0) 797 0052104</a>
+					</p>
+				</div>
+				<hr>
+			</div>
+			<p class="copyright mt-5">All content copyright &copy; 2022 Rachel Mulligan Stained Glass</p>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
